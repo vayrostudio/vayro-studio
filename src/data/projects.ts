@@ -1,3 +1,14 @@
+import project01 from '../assets/projects/project-01.svg';
+import project02 from '../assets/projects/project-02.svg';
+import project03 from '../assets/projects/project-03.svg';
+import project04 from '../assets/projects/project-04.svg';
+import marquee01 from '../assets/projects/marquee-01.svg';
+import marquee02 from '../assets/projects/marquee-02.svg';
+import marquee03 from '../assets/projects/marquee-03.svg';
+import marquee04 from '../assets/projects/marquee-04.svg';
+import marquee05 from '../assets/projects/marquee-05.svg';
+import marquee06 from '../assets/projects/marquee-06.svg';
+
 export interface Project {
   number: string;
   title: string;
@@ -15,7 +26,7 @@ export const projects: Project[] = [
     category: 'Web Design / Development',
     year: '2025',
     description: 'A premium fintech platform with sophisticated interactions and editorial layouts.',
-    image: '/projects/project-01.svg',
+    image: project01,
     link: '#',
   },
   {
@@ -24,7 +35,7 @@ export const projects: Project[] = [
     category: 'Brand Identity / Web Design',
     year: '2025',
     description: 'Complete brand identity and digital presence for an architecture firm.',
-    image: '/projects/project-02.svg',
+    image: project02,
     link: '#',
   },
   {
@@ -33,7 +44,7 @@ export const projects: Project[] = [
     category: 'Digital Experience',
     year: '2024',
     description: 'An immersive digital experience for a creative collective.',
-    image: '/projects/project-03.svg',
+    image: project03,
     link: '#',
   },
   {
@@ -42,16 +53,16 @@ export const projects: Project[] = [
     category: 'Web Development',
     year: '2024',
     description: 'High-performance web application with advanced animations.',
-    image: '/projects/project-04.svg',
+    image: project04,
     link: '#',
   },
 ];
 
 export const marqueeProjects = [
-  { image: '/projects/marquee-01.svg', title: 'Project Alpha' },
-  { image: '/projects/marquee-02.svg', title: 'Project Beta' },
-  { image: '/projects/marquee-03.svg', title: 'Project Gamma' },
-  { image: '/projects/marquee-04.svg', title: 'Project Delta' },
-  { image: '/projects/marquee-05.svg', title: 'Project Epsilon' },
-  { image: '/projects/marquee-06.svg', title: 'Project Zeta' },
+  { image: marquee01, title: 'Project Alpha' },
+  { image: marquee02, title: 'Project Beta' },
+  { image: marquee03, title: 'Project Gamma' },
+  { image: marquee04, title: 'Project Delta' },
+  { image: marquee05, title: 'Project Epsilon' },
+  { image: marquee06, title: 'Project Zeta' },
 ];
