@@ -16,11 +16,11 @@ export default function Hero() {
       {/* Fine grid — background detail */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 opacity-[0.12] pointer-events-none"
+        className="absolute inset-0 opacity-[0.09] pointer-events-none"
         style={{
           backgroundImage:
             'linear-gradient(rgba(242,242,240,0.8) 1px, transparent 1px), linear-gradient(90deg, rgba(242,242,240,0.8) 1px, transparent 1px)',
-          backgroundSize: '120px 120px',
+          backgroundSize: '160px 160px',
           maskImage: 'radial-gradient(ellipse 85% 75% at 50% 40%, black, transparent)',
           WebkitMaskImage: 'radial-gradient(ellipse 85% 75% at 50% 40%, black, transparent)',
         }}
